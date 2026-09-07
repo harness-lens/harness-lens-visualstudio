@@ -9,6 +9,9 @@ from the existing VS Code extension. Display name: **Harness Lens for Visual Stu
 Repository description: Official Harness Lens extension for Visual Studio,
 providing local-first analysis and diagnostics for coding-agent harnesses.
 
+Use the reviewed [Marketplace listing copy](marketplace-listing.md) for basic
+information, overview, categories, tags, pricing, and support links.
+
 ## Release procedure
 
 1. Require passing Windows CI on the exact release commit and review the
@@ -24,7 +27,7 @@ providing local-first analysis and diagnostics for coding-agent harnesses.
 5. Finalize the release notes and publish the approved candidate artifacts.
 6. In [publisher management](https://marketplace.visualstudio.com/manage/publishers/harness-lens),
    choose **New extension > Visual Studio**, upload the verified Visual Studio
-   VSIX, and use this repository's README, banner, icon, and support links.
+   VSIX, and use the reviewed [Marketplace listing copy](marketplace-listing.md).
 7. Verify the public listing and an installation from Marketplace.
 
 Until those gates pass, keep the GitHub release as a **draft**. A draft is only
