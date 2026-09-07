@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12</LangVersion>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <RootNamespace>HarnessLens.VisualStudio</RootNamespace>
+    <AssemblyName>HarnessLens.VisualStudio</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Extensibility.Sdk" Version="17.14.40608" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.VisualStudio.Extensibility.Build" Version="17.14.40608" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\harness-lens-icon.png" />
+    <Content Include="..\..\LICENSE">
+      <Link>LICENSE</Link>
+    </Content>
+    <Content Include="..\..\COPYRIGHT">
+      <Link>COPYRIGHT</Link>
+    </Content>
+    <Content Include="..\..\native-server\SOURCE_REVISION">
+      <Link>Server\SOURCE_REVISION</Link>
+    </Content>
+    <Content Include="..\..\native-server\SHA256SUMS">
+      <Link>Server\SHA256SUMS</Link>
+    </Content>
+    <Content Include="..\..\native-server\win-x64\harness-lens-lsp.exe">
+      <Link>Server\win-x64\harness-lens-lsp.exe</Link>
+    </Content>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "HarnessLens.LanguageServer.DisplayName": "Harness Lens language server",
+  "HarnessLens.Command.ShowStatus": "Harness Lens: Show Status",
+  "HarnessLens.Command.ScanWorkspace": "Harness Lens: Rescan Diagnostics",
+  "HarnessLens.Command.RestartServer": "Harness Lens: Restart Language Server",
+  "HarnessLens.Settings.Category.DisplayName": "Harness Lens",
+  "HarnessLens.Settings.Category.Description": "Native diagnostics. Optional runtime providers are unavailable in this preview.",
+  "HarnessLens.Settings.ServerPath.DisplayName": "Language server path",
+  "HarnessLens.Settings.ServerPath.Description": "Optional absolute path to a trusted harness-lens-lsp.exe. Empty uses the checksum-verified bundled server. Restart the server after changing this setting."
+}
